@@ -3,6 +3,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import { GiftedChat } from 'react-native-gifted-chat'
 import { useState, useCallback, useEffect } from "react";
 
+
+
 export default function App() {
 
   const [messages, setMessages] = useState([]);
